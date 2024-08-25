@@ -1,0 +1,116 @@
+.tasksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.tasksAddBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #a05ed3;
+    box-shadow: 0 0 5px #a05ed3, 0 0 25px #a05ed3, 0 0 50px #a05ed3, 0 0 200px #a05ed3;
+    text-decoration: none;
+}
+
+.tasksAddBtn svg {
+    width: 50%;
+    height: 50%;
+    color: #fff;
+}
+
+.tasks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #212637;
+    padding: 20px;
+}
+
+.task {
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.taskInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.taskInfo div:nth-child(2) {
+    margin-top: 10px;
+}
+
+.taskInfo h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.taskInfo p {
+    font-size: 0.8rem;
+    color: #fff;
+    margin: 0;
+}
+
+.taskActions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.actionsLink {
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #a05ed3;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.actionsLink:hover {
+    background-color: #7e3f9d;
+    box-shadow: 0 0 5px #7e3f9d, 0 0 25px #7e3f9d, 0 0 50px #7e3f9d, 0 0 200px #7e3f9d;
+}
+
+.searchTaskBar {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchTaskBar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #212637;
+    color: #fff;
+}

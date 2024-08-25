@@ -1,0 +1,124 @@
+.deleteUserContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #11182b;
+
+    .user {
+        width: 100%;
+        max-width: 400px;
+        border: 1px solid #a05ed3;
+        border-radius: 5px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #212637;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        .userImgContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 100%;
+
+            .userImg {
+                width: 150px;
+                height: 150px;
+                object-fit: cover;
+                border: 1px solid #a05ed3;
+                border-radius: 50%;
+            }
+        }
+
+        .userInfo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.deleteConfirmBtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #a05ed3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+
+    &:hover {
+        background-color: #7e3f9d;
+                        box-shadow: 0 0 5px #7e3f9d, 0 0 25px #7e3f9d, 0 0 50px #7e3f9d, 0 0 200px #7e3f9d;
+    }    
+}
+
+.warning {
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #7e3f9d;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11182b;
+
+   
+    span {
+        box-shadow:
+        0 0 5px #a05ed3,
+        0 0 25px #a05ed3,
+        0 0 50px #a05ed3,
+        0 0 200px #a05ed3;
+    }
+}
+
+.userBackButton {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+
+    svg {
+        width: 50px;
+        height: 50px;
+        color: #a05ed3;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            color: #7e3f9d;
+           
+          
+            
+        
+    } 
+}
+}
