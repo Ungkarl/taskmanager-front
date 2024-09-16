@@ -1,6 +1,6 @@
 # TaskManager Frontend
 
-This is the frontend component of the TaskManager project, developed using React and Vite. It serves as the user interface for managing tasks, assigning them to employees, and viewing task details. The frontend interacts with the backend to provide a complete task management solution.
+This is the frontend component of the TaskManager project, developed using React and Vite. It serves as the user interface for managing tasks, assigning them to employees, and viewing task details. The frontend interacts with the backend to provide a complete task management solution. Features missing right now, is viewing some of the components as a normal user. Design made by myself.
 
 ## Getting Started
 
